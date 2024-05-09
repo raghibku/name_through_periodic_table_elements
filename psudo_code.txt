@@ -1,0 +1,38 @@
+take list of elemets = [ h , he ]
+input name and make array name= [r,a,g,h,i,b]
+make subset of the name with one and two characters = [r,a,g,h,i,b,ra,ag,gh,gi,ib]
+filter the subsets which represents any element of the periodic table  existing_elements= [ra,ag,h,i,b]
+alternates = [2,4,6]
+m=calculate 
+for(i=1;i<n;i++){
+    if k = n {break}
+    if(matched[i].length = 2){
+        k=k+2
+    }else if(matched[i].length = 1){
+        k=k+1
+    }
+}
+const function find_element(n=0){ 
+    matched = matched[:alternates[1]]   
+    alternates.pop(last_element)
+    for(i=n;i<len(name);i++){
+        match two characters of name[i,i+1] with existing elements:
+            if two chars match with existing elements:
+                matched.push(chars)
+                check if match 1 characters
+                    alternates.push [i,matched.len]
+                i=i+2;
+            if it doesn't match : 
+                if one chars match with existing elements:
+                    matched.push(char)
+                    i=i+1
+                if it doesnt match :
+                    
+                    if alternates.len  =! null:
+                         
+                        find_element(alternates(last element[0]))
+                    else: 
+                        no match
+                    
+    }
+}
